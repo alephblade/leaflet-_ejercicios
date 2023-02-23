@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Leaflet CSS-->
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin=""/>
+    
+    <link rel="stylesheet" type="text/css" href="mapa.css">
+
+
+    <title>Mi primer mapa con Leaflet - Teotihuacan</title>
+    <h1>Bienvenidos a Teotihuacan</h1>
+
+    <select name="select-location" id="select-location">
+		<option value="-1">Seleccione un lugar:</option>
+        <option value="19.692393542736422,-98.84351480601472">Priamide del Sol</option>
+        <option value="19.69604930845431,-98.84141120458933">Palacio de Xalla</option>
+        <option value="19.695727472390544,-98.8449347369769">Mural del Puma</option>
+        <option value="19.682102906980983,-98.84679223882446">Templo de Qetzalcóatl</option>
+        <option value="19.695314861105718,-98.84527657220852">Calzada de los Muertos</option>
+        <option value="19.695314861105718,-98.84527657220852">Calzada de los Muertos</option>
+        <option value="19.69805458016961,-98.84595147766589">Palacio de Quetzalpapálotl</option>
+        <option value="19.698095840639656,-98.84440007161463">Plaza de la Luna</option>
+        <option value="19.690371695135735,-98.84404070637112">Museo de la Cultura Teotihuacana</option>			
+	</select>
+
+</head>
+<body>
+
+    <div id="map"></div>
+    <!--Leaflet JS-->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin=""></script>
+    <script src="mapa.js"></script>
+
+</body>
+</html>
